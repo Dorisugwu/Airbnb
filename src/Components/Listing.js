@@ -16,12 +16,12 @@ function Listing() {
         <div className="cards">
             {Listingdata.map((item, index) => (
             <div className="card" key={index}>
-                <img src={`../../images/${item.img}`} className="card--image" />
+                <img src={`../../images/${item.img}`} className="card--image"  alt="icon"/>
                 <div className="like"><AiFillHeart  onClick={()=>{handleChange(index)}} style={{color: color[index] ? 'yellow' : '#fff'}}/></div>
                 <div className="card--stats">
                     <p className="bold">{item.location}</p>
                         <div className="rating">
-                            <img src="/images/likestar.png" className="card--star" />
+                            <img src="/images/likestar.png" className="card--star" alt="icon"/>
                             <div>{item.rating}</div>
                         </div>
                 </div>

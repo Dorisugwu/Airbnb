@@ -56,7 +56,6 @@ function Icons(props) {
          <MdSportsGolf className="icon"/>
          <p className="icon-name">Golfing</p>
         </div>
-
         <div className='tt'>
             <AiOutlineMore/>
             <p>Filters</p>
